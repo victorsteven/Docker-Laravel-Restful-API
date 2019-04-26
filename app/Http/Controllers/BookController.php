@@ -4,12 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Book;
+use App\Http\Resources\BookResource;
 
 class BookController extends Controller
 {
     public function index()
     {
-        return Book::all();
+        //Fetch all books:
+        $books = Book::all();
+
+        if ($books){
+            return response()->json(['Successfully retrieved books', $books ]);
+        } else {
+            return response()->json(['Error retrieving data', 400]);
+        }
     }
 
     public function show(Book $book)
