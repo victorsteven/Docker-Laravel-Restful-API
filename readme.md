@@ -12,9 +12,9 @@
 
     To access mysql database:  docker exec -it db_mysql bash
 
-    The application can be viewed in the browser using:  http://0.0.0.0.8888
+    The application can be viewed in the browser using:  localhost:8888
 
-    I also added the phpmadmin container which can be accessed using: http://0.0.0.0.9999
+    I also added the phpmadmin container which can be accessed using: localhost:9999
 
     
 </p align="center">
