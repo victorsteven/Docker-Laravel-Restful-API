@@ -1,3 +1,4 @@
+<h3 align="center"> Simple Steps </h3>
 <p align="center">
     
     Run: docker-compose up -d  to start all services.
@@ -16,7 +17,7 @@
     I also added the phpmadmin container which can be accessed using: http://0.0.0.0.9999
 
     
-</p align='center'>
+</p align="center">
 <p><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
