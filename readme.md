@@ -1,4 +1,22 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center">
+    
+    Run: docker-compose up -d  to start all services.
+
+    Then you can check the container running using:  docker ps
+
+    To run migration, bash into the container docker-laravel_app_1:
+    docker exec -it docker-laravel_app_1 bash
+
+    Then run php artisan migrate:fresh --seed
+
+    To access mysql database:  docker exec -it db_mysql bash
+
+    The application can be viewed in the browser using:  http://0.0.0.0.8888
+
+    I also added the phpmadmin container which can be accessed using: http://0.0.0.0.9999
+
+    <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
+</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
