@@ -15,6 +15,8 @@
     The application can be viewed in the browser using:  localhost:8888
 
     I also added the phpmadmin container which can be accessed using: localhost:9999
+    
+    To stop the services, run docker-compose down
 
     
 </p align="center">
