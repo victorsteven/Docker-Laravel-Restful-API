@@ -15,8 +15,9 @@
 
     I also added the phpmadmin container which can be accessed using: http://0.0.0.0.9999
 
-    <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
-</p>
+    
+</p align='center'>
+<p><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
